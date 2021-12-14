@@ -18,5 +18,7 @@ struct MemoryGame {
         var isFaceUp: Bool
         var isMatched: Bool
         var content: CardContent
+        
+        //some comment
     }
 }
