@@ -12,6 +12,7 @@
 		BC7AB87F273F4E1300599C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7AB87E273F4E1300599C69 /* Assets.xcassets */; };
 		BC7AB882273F4E1300599C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7AB881273F4E1300599C69 /* Preview Assets.xcassets */; };
 		DC4B574F276944E70046038D /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4B574E276944E70046038D /* MemoryGame.swift */; };
+		DC838344276BD960001EDFCC /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC838343276BD960001EDFCC /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BC7AB87E273F4E1300599C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC7AB881273F4E1300599C69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC4B574E276944E70046038D /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		DC838343276BD960001EDFCC /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				BC7AB87A273F4E1100599C69 /* Memorize_App.swift */,
 				BC7AB87C273F4E1100599C69 /* ContentView.swift */,
 				DC4B574E276944E70046038D /* MemoryGame.swift */,
+				DC838343276BD960001EDFCC /* EmojiMemoryGame.swift */,
 				BC7AB87E273F4E1300599C69 /* Assets.xcassets */,
 				BC7AB880273F4E1300599C69 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				DC4B574F276944E70046038D /* MemoryGame.swift in Sources */,
 				BC7AB87D273F4E1100599C69 /* ContentView.swift in Sources */,
 				BC7AB87B273F4E1100599C69 /* Memorize_App.swift in Sources */,
+				DC838344276BD960001EDFCC /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
