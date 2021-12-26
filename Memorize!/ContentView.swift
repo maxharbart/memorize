@@ -56,9 +56,12 @@ struct CardView: View {
                 shape.foregroundColor(.red)
                 Text(card.content)
                     .font(.largeTitle)
-        }
+            } else if card.isMatched {
+                shape.opacity(0)
+                
+            }
             
-        else {
+            else {
                 shape.fill()
                 shape.accessibilityIdentifier(".")
             }
@@ -67,19 +70,6 @@ struct CardView: View {
         
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
